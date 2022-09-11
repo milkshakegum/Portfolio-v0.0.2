@@ -33278,7 +33278,7 @@
             } // Append the brand (unless Editor is active)
 
             if (!inEditor) {
-              $body.append(brandElement);
+              $body.remove(brandElement);
             }
           } // Export module
 

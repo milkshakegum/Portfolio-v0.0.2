@@ -292,7 +292,7 @@ html[data-w-dynpage] [data-w-cloak] {
   right: auto;
   bottom: auto;
   z-index: auto;
-  display: block;
+  display: none;
   visibility: hidden;
   overflow: hidden;
   overflow-x: hidden;
@@ -348,8 +348,8 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 .w-webflow-badge {
   position: fixed !important;
-  display: inline-block !important;
-  visibility: visible !important;
+  display: none !important;
+  visibility: hidden !important;
   z-index: 2147483647 !important;
   top: auto !important;
   right: 12px !important;
@@ -367,14 +367,14 @@ html[data-w-dynpage] [data-w-cloak] {
   margin: 0 !important;
   width: auto !important;
   height: auto !important;
-  overflow: visible !important;
+  overflow: hidden !important;
   white-space: nowrap;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 .w-webflow-badge > img {
-  display: inline-block !important;
-  visibility: visible !important;
+  display: none !important;
+  visibility: hidden !important;
   opacity: 1 !important;
   vertical-align: middle !important;
 }

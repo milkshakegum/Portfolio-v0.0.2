@@ -293,10 +293,10 @@ html[data-w-dynpage] [data-w-cloak] {
   bottom: auto;
   z-index: auto;
   display: block;
-  visibility: visible;
-  overflow: visible;
-  overflow-x: visible;
-  overflow-y: visible;
+  visibility: hidden;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   box-sizing: border-box;
   width: auto;
   height: auto;
